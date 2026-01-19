@@ -1,0 +1,31 @@
+tela de login
+
+//**********////
+
+tela de cadastro(forms)
+
+nome:
+cpf(incrementar auto formatação):
+email(incrementar auto formatação):
+funcao:
+salario(bruto-liquido):
+
+(botoes)
+adicionar
+remover
+vizualizar
+
+//*********///
+tela listar funcionarios
+
+//*****//
+filtros de pesquisa
+
+(nome, salario, idade)
+
+baixar em arquivos
+formatação cpf
+
+padronizar layout, cores, fonte - josinaldo
+backend, linkar paginas, tela de listar - guilherme e paulo
+- isa e etienne

@@ -1,0 +1,99 @@
+tela de login
+
+//**********////
+
+tela de cadastro(forms)
+
+nome:
+cpf(incrementar auto formatação):
+email(incrementar auto formatação):
+funcao:
+salario(bruto-liquido):
+
+(botoes)
+adicionar
+remover
+vizualizar
+
+//*********///
+tela listar funcionarios
+
+//*****//
+filtros de pesquisa
+
+(nome, salario, idade)
+
+baixar em arquivos
+formatação cpf
+
+padronizar layout, cores, fonte - josinaldo
+backend, linkar paginas, tela de listar - guilherme e paulo
+- isa e etienne
+
+|------------------------------< Guilherme >----------------------------------|
+
+DATA : 19 / 01 / 26
+
+<-- O QUE FOI **ADICIONADO**: -->
+
+
+
+    [16:12] 1. Metadados básicos foram adicionados às páginas .HTML como:
+        A. Codificação "UTF-8".
+        B. Compatibilidade de navegadores.
+        C. Compatibilidade à escala do dispositivo.
+        D. Autores.
+        E. Palavras-Chave.
+        F. Descrição da página.
+
+    [17:54] 2. Documentação aos códigos.
+
+    [17:55] 3. Criação do documento "index.css" na pasta "styles"
+
+    [18:01] 4. Em relação aos arquivos ".CSS"...:
+        [18:01] 4.1. Adicionando a regra de "@charset "UTF-8";" à todas elas.
+
+    [18:12] 5. Em relação aos arquivos:
+
+    | --> index.html
+        [18:14] A. SEO básico e boas práticas
+
+    | --> index.css
+        [Falta documentar]
+
+    | --> index.js
+        [Falta documentar]
+
+
+
+<-- O QUE FOI **ALTERADO**: -->
+
+
+
+    [16:19] 1. Correção das ancoragens nos arquivos ".HTML" em relação aos arquivos ".JS", ".CSS" e imagens presentes
+    na pasta "assets".
+        [16:20] 1.1. arquivo "pexels-fauxels-3184430.jpg" redirecionado à pasta "assets". (Conferir: **RETIRADO** - 1.1)
+
+    [16:23] 2. Correção do nome "MainWindow" --> "mainwindow" em todos os arquivos.
+
+    [17:56] 3. Lógica da página "index.html"
+        [17:57] 3.1. Uso de boas práticas como as "Arrow functions"
+    
+    [18:10] 4. Adicionado a propriedade "defer" em todos os arquivos ".HTML" na ancoragem com os arquivos ".JS".
+
+
+
+<-- O QUE FOI **RETIRADO**: -->
+
+
+
+    [16:19] 1. Pasta "Script"; Arquivos "signin.js", "signup.js", "app.js" deletados.
+        [16:20] 1.1. Retirado a pasta "Images".
+
+    MOTIVO: Pasta e arquivos duplicados, permanecendo apenas os originais:
+
+scripts/
+    | --> index.js
+    | --> mainwindow.js
+    | --> signin.js
+    | --> signup.js

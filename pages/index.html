@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <!-- Metadados Iniciais -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Página principal do sistema de cadastro de funcionários" />
+  <meta name="keywords" content="cadastro, funcionários, sistema" />
+  <meta name="authors" content="Guilherme, Etienne, Paulo" />
+  <!-- Título, Ícone da Página, Âncoras -->
+  <link rel="stylesheet" href="../styles/index.css">
+  <title>Início</title>
+</head>
+
+<body class="corpo">
+  <header class="cabecalho">
+    <h1 id="logado"></h1>
+    <button class="clique_sair">Sair</button>
+    <img src="../assets/logo_project.jpg" alt="Descrição da imagem" class="logo">
+  </header>
+  <main class="principal">
+    <h2 class="saudacoes">Bem-vindo à Cadastro de funcionários!</h2>
+    <div class="caixa_apresentacao">
+
+    </div>
+    <div class="caixa_apresentacao">
+
+    </div>
+    <div class="caixa_apresentacao">
+
+    </div>
+    <div class="container">
+      <div class="card">
+        <h1 class="forms_titulo">Entre com os dados do funcionário:</h1>
+
+        <form class="formulario">
+
+          <div class="label-float">
+            <input type="text" id="Nome" required />
+            <label id="userLabel" for="Nome">Nome:</label>
+          </div>
+
+          <div class="label-float">
+            <input type="number" id="cpf" name="cpf" required>
+            <label id="userlabel" for="cpf"> CPF: </label>
+          </div>
+
+          <div class="label-float">
+            <input type="email" id="email" name="email" required>
+            <label id="userLabel" for="email"> Email </label>
+          </div>
+
+
+          <div class="label-float">
+            <input type="text" id="funcao" name="funcao" required>
+            <label id="userLabel" for="função"> Função: </label>
+          </div>
+
+          <div class="label-float">
+            <input type="number" id="salario" name="salario" required>
+            <label id="userlabel" for="salario"> Salário líquido: </label>
+          </div>
+          <div class="label-float">
+            <input type="number" id="salario" name="salario" required>
+            <label id="userlabel" for="salario"> Salário bruto: </label>
+          </div>
+
+
+          <div class="justify-center">
+            <button type="submit" class="enviar"> enviar </button>
+          </div>
+
+          <p><a href="signin.html">
+              Entre
+            </a></p>
+        </form>
+      </div>
+
+
+      </form>
+  </main>
+  <footer class="rodape">
+    <p>© <b>Cadastro de funcionários.</b> Todos os direitos reservados.</p>
+  </footer>
+  <script src="../scripts/index.js" defer></script>
+</body>
+
+</html>

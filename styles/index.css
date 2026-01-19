@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+:root {
+    --primary-color: #272262;
+    --secondary-color: #ffffff80;
+    --shadow-color: #00000060;
+    --accent-color: #4038a0;
+    --link-color: #7a3077;
+    --default-color: #fff;
+    --font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.corpo {
+    height: 100%;
+    width: 100%;
+    font-family: var(--font-family);
+    background-image: url('../assets/pexels-fauxels-3184430.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: var(--primary-color);
+}
+
+.cabecalho {
+    background-image: linear-gradient(180deg, var(--primary-color), var(--accent-color));
+    color: var(--default-color);
+    padding: 1rem;
+    display: flex;
+}
+
+.cabecalho .logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid .2rem var(--shadow-color);
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.cabecalho .clique_sair {
+    background-color: var(--default-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 25px;
+    height: 50%;
+    align-self: center;
+    margin: 0 0 0 25px;
+    transition: all .2s ease-out;
+}
+
+.cabecalho .clique_sair:hover {
+    background-color: #ffffff80;
+    transform: scale(1.1);
+}
+
+.cabecalho .clique_sair:active {
+    transform: scale(.9);
+}
+
+.cabecalho #logado {
+    border-left: solid 5px var(--default-color);
+    padding: 10px 0 10px 1rem;
+    height: 50%;
+    align-self: center;
+    letter-spacing: 1px;
+}
+
+.principal {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff8d;
+    width: 85%;
+    margin: auto;
+}
+
+.principal .caixa_apresentacao {
+    max-width: 100px;
+    max-height: 100px;
+    background-color: black;
+}
+
+.rodape {
+    background-color: var(--accent-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.card {
+  background-color: #ffffff80;
+  padding: 30px;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px #00000060
+}
+
+.forms_titulo {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #272262;
+}
+
+.label-float input {
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #272262;
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 0;
+
+}
+
+.label-float {
+  position: relative;
+  padding-top: 13px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.label-float input:focus {
+  border-bottom: 2px solid #4038a0;
+}
+
+.label-float label {
+  color: #272262;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+}
+
+.label-float input:focus+label,
+.label-float input:valid+label {
+  font-size: 13px;
+  margin-top: 0;
+  color: #4038a0
+}
+
+.enviar {
+  background-color: transparent;
+  border-color: #272262;
+  color: #272262;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+.enviar:hover {
+  background-color: #272262;
+  color: #fff;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  color: #272262;
+  font-size: 14pt;
+  text-align: center;
+}
+
+a {
+  color: #7a3077;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all .3s ease-out;
+}
+
+a:hover {
+  color: #272262;
+}
+
+.fa-eye {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  color: #272262;
+}
+
+#msgError {
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}

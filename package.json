@@ -1,0 +1,9 @@
+{
+  "name": "cadastro-func-itens-js",
+  "version": "0.1.0",
+  "description": "Sistema de cadastro de funcionários e itens",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
