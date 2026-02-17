@@ -1,6 +1,6 @@
 
 
-const singIn = "../pages/signin.html";
+const singIn = "../index.html";
 const sairBtn = document.querySelector(".clique_sair");
 const userLogado = JSON.parse(localStorage.getItem("userLogado"));
 

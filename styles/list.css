@@ -20,7 +20,7 @@
 }
 
 body {
-  background-image: url("/assets/pexels-fauxels-3184430.jpg");
+  background-image: url("../assets/pexels-fauxels-3184430.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

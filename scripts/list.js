@@ -1,4 +1,4 @@
-const signIn = "../pages/signin.html";
+const signIn = "../index.html";
 
 if (!localStorage.getItem("token")) {
   window.location.href = signIn;
@@ -45,7 +45,7 @@ function renderTable() {
 }
 
 function goToRegister() {
-  window.location.href = "../pages/index.html";
+  window.location.href = "../pages/main.html";
 }
 
 window.goToRegister = goToRegister;
@@ -72,7 +72,7 @@ document.addEventListener("click", (e) => {
   if (editBtn) {
     const index = editBtn.dataset.index;
     localStorage.setItem("editEmployeeIndex", index);
-    window.location.href = "../pages/index.html";
+    window.location.href = "../pages/main.html";
   }
 });
 
